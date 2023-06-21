@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CogmentoApp]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LoginTest(failed)">
+    <classes>
+      <class name="com.testLayer.CogmentoLoginPageTestClass">
+        <methods>
+          <include name="performLoginActivity"/>
+          <include name="tearDown"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- com.testLayer.CogmentoLoginPageTestClass -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [CogmentoApp] -->
